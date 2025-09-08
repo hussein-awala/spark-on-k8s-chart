@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   spark-on-k8s:
   - apiVersion: v2
+    appVersion: 0.12.1
+    created: "2025-09-08T19:27:13.284849+02:00"
+    description: 'A Helm chart for spark-on-k8s API and Web UI.  To deploy the spark-on-k8s
+      API and Web UI, use the following command:  ```bash helm repo add spark-on-k8s
+      https://hussein.awala.fr/spark-on-k8s-chart helm repo update helm install <release-name>
+      spark-on-k8s/spark-on-k8s --values <path-to-values-file> ``` '
+    digest: 17a27c862b2d1a40f7a3d7735ba340b6f0bbb8e8978a7e73cc5be73c9c88b48b
+    name: spark-on-k8s
+    type: application
+    urls:
+    - https://hussein-awala.github.io/spark-on-k8s-chart/spark-on-k8s-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-05-05T22:53:15.989666668Z"
+    created: "2025-09-08T19:27:13.284399+02:00"
     description: 'A Helm chart for spark-on-k8s API and Web UI.  To deploy the spark-on-k8s
       API and Web UI, use the following command:  ```bash helm repo add spark-on-k8s
       https://hussein.awala.fr/spark-on-k8s-chart helm repo update helm install <release-name>
@@ -16,7 +29,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2024-04-25T21:30:05.978024753Z"
+    created: "2025-09-08T19:27:13.285591+02:00"
     description: A Helm chart for spark-on-k8s API and Web UI.
     digest: a83c7ecb31ca18af62ba57ca2d1ae8a07eab76daf4b93ad5e467260ffdce6445
     name: spark-on-k8s
@@ -26,7 +39,7 @@ entries:
     version: v0.2.0
   - apiVersion: v2
     appVersion: v0.4.0
-    created: "2024-04-16T20:08:50.56707525Z"
+    created: "2025-09-08T19:27:13.285237+02:00"
     description: A Helm chart for spark-on-k8s API and Web UI.
     digest: 8639d25ee14e7ee44d373120ee540d2c6bb8c873fec0916b5f5b9cf5fc66ce9e
     name: spark-on-k8s
@@ -34,4 +47,4 @@ entries:
     urls:
     - https://hussein-awala.github.io/spark-on-k8s-chart/spark-on-k8s-v0.1.0.tgz
     version: v0.1.0
-generated: "2024-05-05T22:53:15.9888373Z"
+generated: "2025-09-08T19:27:13.283741+02:00"
